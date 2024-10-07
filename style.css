@@ -1,11 +1,67 @@
 *{
-    background-color: navy;
+    background-color: rgb(0, 0, 73);
 }
+
+.header{
+    border: 2px solid gold;
+}
+
+.main{
+    border: 2px solid gold;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .title{
-    color: azure;
+    color: rgb(235, 191, 82);
     font-family: sans-serif;
     font-size: 40px;
     font-weight: bold;
     display: flex;
     justify-content: center;
+}
+.player1 {
+    border: 2px solid rgb(128, 119, 69);
+    width: 400px;
+}
+
+.player1:hover{
+    filter: opacity(70%);
+}
+
+.image{
+    border: 2px solid rgb(128, 119, 69);
+    width: 500px;
+    
+}
+
+.player2{
+    border: 2px solid rgb(128, 119, 69);
+    width: 400px;
+}
+
+.player2:hover{
+    filter: opacity(70%);
+}
+
+.pressButton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button{
+    height: 40px;
+    width: 60px;
+    color: gold;
+    font-weight: bold;
+    
+}
+
+.footer{
+    color: white;
+    font-size: 20px;
 }
