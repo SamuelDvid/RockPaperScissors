@@ -1,5 +1,12 @@
 const button = document.querySelector("button");
 
+const selectorPlayer = document.getElementById("player1");
+
+function selectionPlayer(){
+    alert('You have Selected Samm');
+    alert('You have to exploit the Machine!')
+}
+
 function action(){
     alert('lets play');
 
@@ -95,4 +102,5 @@ function action(){
 };
 
 button.addEventListener("click", action);
+selectorPlayer.addEventListener("click", selectionPlayer);
     
